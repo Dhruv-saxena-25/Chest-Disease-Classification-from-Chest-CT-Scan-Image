@@ -47,7 +47,7 @@ python app.py
     
 ``` bash
 
-MLFLOW_TRACKING_URI=https://dagshub.com/Dhruv-saxena-25/MLflow-Experiment-demo.mlflow \
+MLFLOW_TRACKING_URI=https://dagshub.com/Dhruv-saxena-25/Chest-Disease-Classification-from-Chest-CT-Scan-Image.mlflow \
 MLFLOW_TRACKING_USERNAME=Dhruv-saxena-25 \
 MLFLOW_TRACKING_PASSWORD=c89afa3d5cb46cd21a0333290065b3e3d17ac349 \
 python script.py
@@ -58,7 +58,7 @@ python script.py
 ### RUN from bash terminal
 
 ```bash
-export MLFLOW_TRACKING_URI=https://dagshub.com/Dhruv-saxena-25/MLflow-Experiment-demo.mlflow
+export MLFLOW_TRACKING_URI=https://dagshub.com/Dhruv-saxena-25/Chest-Disease-Classification-from-Chest-CT-Scan-Image.mlflow
 
 export MLFLOW_TRACKING_USERNAME=Dhruv-saxena-25
 
