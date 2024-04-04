@@ -5,6 +5,7 @@ import tensorflow as tf
 import time
 from cnnClassifier.entity.config_entity import TrainingConfig
 from pathlib import Path
+import shutil
 
 class Training:
     def __init__(self, config: TrainingConfig):
@@ -66,7 +67,6 @@ class Training:
         model.save(path)
 
 
-
     
     def train(self):
         self.steps_per_epoch = self.train_generator.samples // self.train_generator.batch_size
@@ -85,3 +85,4 @@ class Training:
             model=self.model
         )
 
+     

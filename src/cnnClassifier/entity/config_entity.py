@@ -39,6 +39,7 @@ class TrainingConfig:
     params_image_size: list
 
 
+
 # Model Evaluation Mlfow Config
 
 @dataclass(frozen=True)
